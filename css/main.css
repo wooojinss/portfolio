@@ -611,6 +611,7 @@ header nav > .gnb > li:hover a {
     }
     .cont_wrap .sct_3 .info_list {
         flex-wrap:wrap;
+        gap:2.4rem 0;
     }
     .cont_wrap .sct_3 .info_list > .info_box {
         width:100%;
