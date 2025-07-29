@@ -1,1 +1,198 @@
-hello, world!
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <title>Woojin Nam's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">Hi, I'm Woojin Nam</h1>
+            <ul class="gnb">
+                <li><a href="#sct_1">About</a></li>
+                <li><a href="#sct_2">Work</a></li>
+                <li><a href="#sct_3">Contact</a></li>
+            </ul>
+            <div class="btn_site_map">
+                <button class="btn_cls"></button>
+                <ul class="gnb_m">
+                    <li><a href="#sct_1">About</a></li>
+                    <li><a href="#sct_2">Work</a></li>
+                    <li><a href="#sct_3">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--//header-->
+    <div class="cont_wrap">
+        <div id="sct_1" class="sct_1">
+            <div class="left_box">
+                <div class="img_box"></div>
+            </div>
+            <div class="right_box">
+                <p>I'm a UI and web designer with a focus on <br>
+                website, landing page, and app design. <br>
+                I also have experience in front-end publishing <br>
+                and enjoy working across both design and development. </p>
+                <p>I'm particularly interested in planning and strategy, <br>  
+                and I always strive to deliver better, more thoughtful results with every project.</p> 
+            </div>
+        </div>
+        <!--//sct_1-->
+        <div id="sct_2" class="sct_2">
+            <div class="top_sbjt_box">
+                <div class="txt_box"><p>Work</p></div>
+            </div>
+            <div class="work_list">
+                <div class="work_box">
+                    <div class="left_box">
+                        <div class="img_box">
+                            <img src="images/img_work_1.png" alt="charobotics thumbnail">
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <p class="work_sbjt">Charobotics</p>
+                        <dl>
+                            <dt>Type</dt>
+                            <dd>Web Design</dd>
+                        </dl>
+                        <dl>
+                            <dt>Role</dt>
+                            <dd>Design and Publishing</dd>
+                        </dl>
+                        <dl>
+                            <dt>Date</dt>
+                            <dd>2025</dd>
+                        </dl>
+                    </div>
+                    <a class="btn_link" href="https://charobotics.com" target="_blank"></a>
+                </div>
+                <div class="work_box">
+                    <div class="left_box">
+                        <div class="img_box">
+                            <img src="images/img_work_2.png" alt="Saedongsan Hospital thumbnail">
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <p class="work_sbjt">Saedongsan Hospital</p>
+                        <dl>
+                            <dt>Type</dt>
+                            <dd>Web Design</dd>
+                        </dl>
+                        <dl>
+                            <dt>Role</dt>
+                            <dd>Design and Publishing</dd>
+                        </dl>
+                        <dl>
+                            <dt>Date</dt>
+                            <dd>2025</dd>
+                        </dl>
+                    </div>
+                    <a class="btn_link" href="https://saedongsan.co.kr/" target="_blank"></a>
+                </div>
+                <div class="work_box">
+                    <div class="left_box">
+                        <div class="img_box">
+                            <img src="images/img_work_3.png" alt="DGICT Landing Page thumbnail">
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <p class="work_sbjt">DGICT Landing Page</p>
+                        <dl>
+                            <dt>Type</dt>
+                            <dd>Web Design</dd>
+                        </dl>
+                        <dl>
+                            <dt>Role</dt>
+                            <dd>Design and Publishing</dd>
+                        </dl>
+                        <dl>
+                            <dt>Date</dt>
+                            <dd>2025</dd>
+                        </dl>
+                    </div>
+                    <a class="btn_link" href="https://dgict.org/edu-apply/" target="_blank"></a>
+                </div>
+                <div class="work_box">
+                    <div class="left_box">
+                        <div class="img_box">
+                            <img src="images/img_work_4.png" alt="Data Portal Alldam thumbnail">
+                        </div>
+                    </div>
+                    <div class="right_box">
+                        <p class="work_sbjt">Data Portal Alldam</p>
+                        <dl>
+                            <dt>Type</dt>
+                            <dd>Web Design</dd>
+                        </dl>
+                        <dl>
+                            <dt>Role</dt>
+                            <dd>Design and Publishing</dd>
+                        </dl>
+                        <dl>
+                            <dt>Date</dt>
+                            <dd>2024</dd>
+                        </dl>
+                    </div>
+                    <a class="btn_link" href="https://alldam.chungnam.go.kr/index.chungnam" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <!--//sct_2-->
+        <div id="sct_3" class="sct_3">
+            <div class="top_sbjt_box">
+                <div class="txt_box"><p>Contact</p></div>
+            </div>
+            <div class="info_list">
+                <dl class="info_box">
+                    <dt>Mail</dt>
+                    <dd><a href="mailto:ndwnam@gmail.com">ndwnam@gmail.com</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!--//cont_wrap-->
+    <script>
+        window.onload = function(){
+            let btn_site_map = document.querySelector('.btn_site_map');
+
+            btn_site_map.addEventListener('click', function(){
+                this.classList.toggle('active');
+            })
+        }
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        // .sct_1, .sct_2, .sct_3에 active 클래스
+        ['.sct_1', '.sct_2', '.sct_3'].forEach(selector => {
+            gsap.to(selector, {
+                scrollTrigger: {
+                trigger: selector,
+                start: "top 80%",
+                toggleClass: { targets: selector, className: "active" },
+                once: true
+                }
+            });
+        });
+
+        // .sct_2 안의 .work_box 각각이 보일 때 개별적으로 active 클래스 부여
+        gsap.utils.toArray('.sct_2 .work_box').forEach((box) => {
+            gsap.to(box, {
+                scrollTrigger: {
+                trigger: box,
+                start: "top 90%",  // 박스가 거의 보일 때
+                toggleClass: { targets: box, className: "active" },
+                once: true
+                }
+            });
+        });
+
+
+    </script>
+</body>
+</html>
