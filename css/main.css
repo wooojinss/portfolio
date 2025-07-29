@@ -78,6 +78,7 @@ header nav > .gnb > li:hover a {
     height:120px;
     background:url(/portfolio/images/icon_down.png) no-repeat center center / 48px;
     border-radius:50%;
+    z-index:3;
 }
 .btn_pdf:before {
     content:"";
@@ -575,6 +576,9 @@ header nav > .gnb > li:hover a {
     }
 }
 @media all and (max-width:768px) {
+    .btn_pdf {
+        display:none;
+    }
     .cont_wrap > .sct_1 {
         height:auto;
         flex-wrap:wrap;
