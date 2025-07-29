@@ -95,6 +95,7 @@ header nav > .gnb > li:hover a {
     }
     100% {
         transform:rotate(359deg);
+    }
 }    
 .cont_wrap > [class*=sct_] {
     max-width:1704px;
