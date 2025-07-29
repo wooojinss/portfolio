@@ -417,7 +417,6 @@ header nav > .gnb > li:hover a {
 }
 .cont_wrap .sct_3 .info_box dt {
     position:relative;
-    width:50px;
     flex-shrink:0;
     transform:scale(0 ,1);
     transform-origin:100% 50%;
