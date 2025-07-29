@@ -157,7 +157,7 @@ header nav > .gnb > li:hover a {
     transform:translateX(-50%);
     width:100%;
     height:calc(100% + 2rem);
-    background:url(/images/img_profile.png) no-repeat center center / contain;
+    background:url(/portfolio/images/img_profile.png) no-repeat center center / contain;
     transition:opacity .3s linear;
     transition-delay:.6s;
     opacity:0;
@@ -222,13 +222,13 @@ header nav > .gnb > li:hover a {
     right:2rem;
     width:48px;
     height:48px;
-    background:url(/images/icon_right.png) no-repeat center center / contain;
+    background:url(/portfolio/images/icon_right.png) no-repeat center center / contain;
 }
 .cont_wrap > .sct_2 .work_list .work_box:hover .btn_link {
     animation:to_right 1s ease-in infinite;
 }
 .cont_wrap > .sct_2 .work_list .work_box:hover .btn_link:hover {
-    background:url(/images/icon_right_h.png) no-repeat center center / contain;
+    background:url(/portfolio/images/icon_right_h.png) no-repeat center center / contain;
 }
 @keyframes to_right {
     0% {
