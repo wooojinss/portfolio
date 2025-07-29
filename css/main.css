@@ -402,6 +402,9 @@ header nav > .gnb > li:hover a {
     padding:8rem 0 4rem 0;
 }
 .cont_wrap .sct_3 .info_list {
+    display:flex;
+    align-items:center;
+    gap:0 3.2rem;
     padding:4rem 0;
 }
 .cont_wrap .sct_3 .info_box {
