@@ -260,6 +260,10 @@ header nav > .gnb > li:hover a {
     height: 100%;
     object-fit:cover;
     transition:all .35s linear;
+    opacity:0;
+}
+.cont_wrap > .sct_2 .work_list .work_box.active .left_box .img_box img {
+    opacity:1;
 }
 .cont_wrap > .sct_2 .work_list .work_box:hover .left_box .img_box img {
     transform:translate(-50% ,-50%) scale(1.05, 1.05);
