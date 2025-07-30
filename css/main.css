@@ -570,6 +570,9 @@ header nav > .gnb > li:hover a {
         font-size:3.2rem;
         font-weight:600;
     }
+    .cont_wrap > .sct_1 {
+        padding:8rem 2.4rem 4rem 2.4rem;
+    }
     .cont_wrap > .sct_2 .work_list .work_box .left_box .img_box {
         height:250px;
     }
