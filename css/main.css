@@ -345,7 +345,7 @@ header nav > .gnb > li:hover a {
 } 
 .cont_wrap > .sct_2 .work_list .work_box .right_box dl dt {
     position:relative;
-    width:90px;
+    width:80px;
     display:inline-block;
     flex-shrink:0;
     transform:scale(0 ,1);
